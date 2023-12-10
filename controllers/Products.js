@@ -1,3 +1,5 @@
+const db = require('../config/db')
+
 const productos = []
 
 const crearProducto = (req, res) => {
